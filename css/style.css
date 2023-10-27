@@ -10,11 +10,24 @@ body {
     border-style: solid;
     position: fixed;
     bottom: 1.3rem;
-    left: 50%;
+    left: 50%;    
+    transform: translate(-50%, -50%); /* move element in the center */
     padding: 0.3rem;
     z-index: 9999;
+}
+.cookie-button {
+    text-transform: uppercase;
 }
 footer {
     margin-top: auto;
   }
+p {
+    line-height: 1.5;
+    text-indent: 2rem;
+    word-spacing: 0.3rem;
+    letter-spacing: normal;
+
+}
+
+
 
