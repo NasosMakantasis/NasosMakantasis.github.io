@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Zakynthos-About Us</title>
-    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta name="description" content="The beautiful island of Zakynthos is a Greek jewell with some great things/activities someone can enjoy! ">
     <meta name="keywords" content="Zakynthos, Greece, Navagio, Zante, Shipwreck ">
 </head>
@@ -42,11 +42,11 @@
                     <p><strong>Contact form:</strong></p>
                     <p>Title:*</p>                    
                     <input type="radio" id="mr" name="title-mr" value="Mr.">
-                    <label for="html">Mr.</label><br>
+                    <label for="mr">Mr.</label>
                     <input type="radio" id="mrs" name="title-mrs" value="Mrs.">
-                    <label for="html">Mrs.</label><br>
+                    <label for="mrs">Mrs.</label>
                     <input type="radio" id="other" name="title-other" value="Other">
-                    <label for="html">Other</label><br>
+                    <label for="other">Other</label>
         
                     <p>
                         <label for="name">Name:*</label>
@@ -61,17 +61,25 @@
                         <input type="text" id="phone" name="phone">
                     </p>
                     <p>
-                        <label for="message">Message:*:</label>
-                        <p>
-                            <textarea id="message" name="message" rows="4" cols="50"></textarea>
-                        </p>
+                        <label for="message">Message:*:</label>                        
+                        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                        
                     </p>
                     <input class="float-right" type="submit" value="Submit">
                 </form> 
             </section>
         </section>
     </main>
-    <footer>&copy; Copyright 2023 Athanasios Makantasis</footer>     
+    <footer>&copy; Copyright 2023 Athanasios Makantasis
+        <nav class="display-inline float-right">
+            <a href="index.html">Home</a> |
+            <a href="navagio.html">Navagio</a> |
+            <a href="food.html">Food</a> |
+            <a href="activities.html">Activities</a> |
+            <a href="places-to-visit.html">Places to visit</a> |
+            <a href="about-us.html">About us</a>
+        </nav>
+    </footer>     
 </body>
 
 </html>

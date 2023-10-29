@@ -37,8 +37,7 @@ p {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #b6d9ed;
+    overflow: hidden;    
     display: flex;
     justify-content: space-around;
   }
@@ -59,7 +58,7 @@ p {
   }
 
   .navbar > li:hover {
-    background-color: #97c3db;
+   
   }
 
   .navbar > li:first-child {
@@ -138,8 +137,7 @@ p {
   }
   
   form {
-    padding: 4rem;
-    background-color: #b6d9ed;
+    padding: 4rem;    
   }
   
   .float-right {
@@ -160,6 +158,12 @@ p {
   
   article > p {
     text-indent: 20px;
+  }
+  form, .navbar {
+    background-color: #b6d9ed;
+  }
+  .display-inline {
+    display: inline;
   }
 
 
