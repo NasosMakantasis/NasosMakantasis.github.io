@@ -12,6 +12,7 @@ main {
 .cookie-section {
     border-width: 0.1rem;
     border-color: black;
+    background-color: white;
     border-style: solid;
     position: fixed;
     bottom: 1.3rem;
@@ -72,6 +73,23 @@ ul {
   }
   .logo {
     width: 3.75rem;
+  }
+  header {
+    text-align: center;
+    
+  }
+  .main-section {
+    display: flex;
+    /* flex-direction: column; */
+  }
+  .home-article {
+
+
+  }
+  .article-image {
+    min-width: 100%;
+    padding: 2rem;
+    max-width: 100%;
   }
 
 
