@@ -2,4 +2,4 @@ o Student name: Athanasios
 o Student number: 713086
 o Student class: IT1B
 o GitHub Repository: https://github.com/NasosMakantasis/web-markup
-o GitHub Pages URL: your github pages URL*
+o GitHub Pages URL: https://nasosmakantasis.github.io/

@@ -3,6 +3,11 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #f6e5c6;
+    margin: 0rem;
+}
+main {
+    margin: 0.5rem;
 }
 .cookie-section {
     border-width: 0.1rem;
@@ -28,6 +33,46 @@ p {
     letter-spacing: normal;
 
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b6d9ed;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  li {
+    float: left;
+    display: flex;
+    align-self: center;
+    padding: 0.9rem 1rem;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;    
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+
+  li:hover {
+    background-color: #97c3db;
+  }
+
+  li:first-child {
+    padding: 0.3rem;
+  }
+
+  .active {
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  .logo {
+    width: 3.75rem;
+  }
 
 
 
